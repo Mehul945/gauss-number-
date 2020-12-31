@@ -1,7 +1,7 @@
 import random
-g=random.choice([1,2,3,4,5,6,6,6,6,6,6,6])
+g=random.randint(1,10)
 while 1:
-    a=int(input("gause number betwin 1 to 6 : "))
+    a=int(input("gause number betwin 1 to 10 : "))
     if a==g:
         print("You gause correctly")
         break
